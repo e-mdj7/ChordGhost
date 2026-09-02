@@ -1,11 +1,12 @@
 # Chord Ghost
 
-A [MuseScore 3](https://musescore.org/) plugin that turns the score editor into a chord-analysis and songwriting sidekick. It builds chords/voicings interactively, and — when pointed at a selection in an open score — reads the notes, labels each measure with a Roman-numeral chord, detects cadences, guesses the harmonic "mood," and suggests likely next chords.
+A [MuseScore 4](https://musescore.org/) plugin that turns the score editor into a chord-analysis and songwriting sidekick. 
+It builds chords/voicings interactively, and — when pointed at a selection in an open score — reads the notes, labels each measure with a Roman-numeral chord, detects cadences, guesses the harmonic "mood," and suggests likely next chords.
 
 ## Language / Tech
 
 - **QML** (Qt Modeling Language) with `QtQuick`, `QtQuick.Controls`, and `QtQuick.Layouts` — the UI/scripting language MuseScore 3 plugins are written in.
-- Targets the **MuseScore 3 Plugin API** (`import MuseScore 3.0`). It is **not** compatible with MuseScore 4's plugin API without porting.
+- Targets the **MuseScore 4 Plugin API** (`import MuseScore 4.X`).
 - Single-file plugin, no build step and no external dependencies — everything (UI, music theory logic, and staff rendering) lives in `ChordGhost.qml`.
 - Custom `Canvas`-based staff renderer (treble + bass clef) draws note heads, ledger lines, and inversion voicings by hand — it doesn't rely on MuseScore's own engraving for the analysis panel.
 
@@ -34,10 +35,10 @@ A [MuseScore 3](https://musescore.org/) plugin that turns the score editor into 
 
 ## Installation
 
-1. Locate your MuseScore 3 plugins folder:
-   - Windows: `Documents\MuseScore3\Plugins`
-   - macOS: `~/Documents/MuseScore3/Plugins`
-   - Linux: `~/Documents/MuseScore3/Plugins`
+1. Locate your MuseScore 4 plugins folder:
+   - Windows: `Documents\MuseScore4\Plugins`
+   - macOS: `~/Documents/MuseScore4/Plugins`
+   - Linux: `~/Documents/MuseScore4/Plugins`
 2. Copy `ChordGhost.qml` into that folder (subfolder is fine).
 3. In MuseScore: **Plugins → Plugin Manager**, enable "Chord Ghost", then restart MuseScore if prompted.
 4. Open a score, optionally select a range of measures, then run **Plugins → Chord Ghost**.
