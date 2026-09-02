@@ -46,4 +46,4 @@ It builds chords/voicings interactively, and — when pointed at a selection in 
 
 ## Status
 
-Personal/experimental project (currently at internal version 5.4.2). Chord and cadence detection are heuristic (best-fit scoring), not a full music-theory engine — expect occasional misreads on ambiguous or chromatic passages.
+Actively developed. Chord and cadence detection are heuristic (best-fit scoring), not a full theory engine — expect occasional misreads on chromatic passages.
