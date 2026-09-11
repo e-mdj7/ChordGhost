@@ -5,6 +5,9 @@
 ![Last Commit](https://img.shields.io/github/last-commit/e-mdj7/ChordGhost?style=flat-square)
 ![Status](https://img.shields.io/badge/status-actively--developed-brightgreen?style=flat-square)
 
+![Version](https://img.shields.io/badge/version-5.4.2-blue?style=flat-square)
+
+
 A [MuseScore 4](https://musescore.org/) plugin that turns the score editor into a chord-analysis and songwriting sidekick. 
 It builds chords/voicings interactively, and if you click in a measure (or set of measures) it reads the notes, labels each measure with a Roman-numeral chord, detects cadences, guesses the harmonic "mood," and suggests likely next chords.
 
