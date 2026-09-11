@@ -1,4 +1,9 @@
 # Chord Ghost
+![QML](https://img.shields.io/badge/QML-41CD52?style=flat-square&logo=qt&logoColor=white)
+![MuseScore 4](https://img.shields.io/badge/MuseScore-4-1A70B8?style=flat-square&logo=musescore&logoColor=white)
+![License: Unlicense](https://img.shields.io/badge/license-Unlicense-blue?style=flat-square)
+![Last Commit](https://img.shields.io/github/last-commit/e-mdj7/ChordGhost?style=flat-square)
+![Status](https://img.shields.io/badge/status-actively--developed-brightgreen?style=flat-square)
 
 A [MuseScore 4](https://musescore.org/) plugin that turns the score editor into a chord-analysis and songwriting sidekick. 
 It builds chords/voicings interactively, and — when pointed at a selection in an open score — reads the notes, labels each measure with a Roman-numeral chord, detects cadences, guesses the harmonic "mood," and suggests likely next chords.
